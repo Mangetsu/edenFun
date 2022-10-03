@@ -2195,7 +2195,7 @@ iframe {
 }
 @media (min-width: 1200px) {
   .banner--style3 .banner__content h2 {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
 }
 .banner--style3 .banner__content h2 span {
@@ -2264,6 +2264,10 @@ iframe {
   .pageheader {
     padding-block: 205px;
   }
+}
+
+.footer {
+  background-color: red;
 }
 
 .footer__newsletter {

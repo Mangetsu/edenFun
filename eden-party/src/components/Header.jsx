@@ -26,8 +26,8 @@ const Header = () => {
                                  </ul>
                              </div>
                              <ul className="button-group">
-                                 <li><a href="login.html" className="default-btn login"><i className="fa-solid fa-user"></i> <span>LOG IN</span> </a></li>
-                                 <li><a href="register.html" className="default-btn signup"><i className="fa-solid fa-users"></i> <span>SIGN UP</span> </a></li>
+                                 <li><a href="login" className="default-btn login"><i className="fa-solid fa-user"></i> <span>Se connecter</span> </a></li>
+                                 <li><a href="register" className="default-btn signup"><i className="fa-solid fa-users"></i> <span>S'inscrire</span> </a></li>
                              </ul>
                          </div>
                      </nav>

@@ -4,9 +4,11 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import Homepage from "./components/Homepage";
+import Homepage from "./components/Home/Homepage";
 import Events from "./components/Events";
 import Header from "./components/Header";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,8 @@ root.render(
           <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/events" element={<Events />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/login" element={<Login />} />
           </Routes>
       </BrowserRouter>
 );
