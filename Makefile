@@ -2,8 +2,8 @@ MAIN_METEOR_CMD=cd meteor-api &&
 MAIN_REACT_CMD=cd eden-party &&
 
 install:
-	meteor create --blaze meteor-api
-	npm install
+	cd eden-party & npm install
+	cd meteor-api & npm install
 
 start-meteor:
 	$(MAIN_METEOR_CMD) meteor run -p 2000
